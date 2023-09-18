@@ -1,10 +1,12 @@
 
-const ProductsDisplay = () => {
+const ProductsDisplay = ({products}) => {
 
     const handleProductClick = (id) => {
         // we have the id of the clicked property
-        
         // 1. make a new products array (from the old state)
+        const updatedProducts = products.map((product) => {
+          
+        })
         // 2. set inCart = true for the clicked product
         // 3. set state to this new products array
     }
